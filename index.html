@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <title>                                                                                               .</title>
+</head>
+<body>
+    <div id="dados">
+        <div class="header"> 
+            <img src="logo.png" alt="" class="img">
+            <p class="text_suuperior"><b>BRX SOLAR <br> DEPARTAMENTO TÉCNICO DE <br> ENGENHARIA - DTE</p><br>
+        </div>
+
+        <h2 class="title"><b>CHECK LIST PARA VISITA TÉCNICA</b></h2>
+
+        <!--BOX 1-->
+
+        <div class="box1"> 
+            <div class="box1_title">
+                <p><b>CLIENTE</b></p>
+            </div>
+
+            <div>
+                <label for=""><b> Data da visita:<b></label>
+                <input type="date" required class="input_1"> 
+                <br> <br>
+                <Label><b>Horário de início:</b></Label>   
+                <input type="text" required> 
+                <br> <br>
+                <Label><b>Horário de término:</b></Label>   
+                <input type="text" required> 
+                <br> <br>
+                <Label><b>Tipo de cliente:</b></Label>
+                <br>
+                <input type="radio" name="tipo_de_cliente">Pessoa Física    
+                <input type="radio" name="tipo_de_cliente">Pessoa Jurídica 
+                <br> <br>
+                <label for=""><b>Nome do Cliente/ Razão Social:</b></label>
+                <input type="text" required> 
+                <br> <br>
+                <label for=""><b>CPF/ CNPJ:</b></label>
+                <input type="text" required> 
+                <br> <br>
+                <label for=""><b>Responsável:</b></label>
+                <input type="text" required> 
+                <br> <br>
+                <label for=""><b>Telefone:</b></label>
+                <input type="text" required> <br>
+
+            </div>
+        </div> 
+
+        <br>
+
+        <!--BOX 2-->
+        
+        <div class="box2"> 
+            <div class="box2_title">
+                <p><b>LOCAL DA INSTALAÇÃO DO GERADOR FOTOVOTAICO</b></p>
+            </div>
+
+            <div>
+                <label for=""> <b> Endereço da instituição: <b> </label>
+                <input type="text" required>   
+                <br> <br>
+                <Label><b>CEP</b></Label>   <input type="text" required> 
+                <br> <br>
+                <Label><b>Unidade Consumidora</b></Label>   <input type="text" required> 
+                <br> <br>
+                <Label><b>Latitude</b></Label>   
+                <input type="text" required>  
+                <br> <br>
+                <Label><b>Longitude</b></Label>   
+                <input type="text" required> 
+                <br> <br>
+                <Label><b>Estrutura do Telhado:</b></Label>
+                <input type="radio" name="tipo_de_cliente1">Ok  
+                <input type="radio" name="tipo_de_cliente1">N Ok  
+                <input type="radio" name="tipo_de_cliente1">Madeira 
+                <input type="radio" name="tipo_de_cliente1">Metálica 
+                <br> <br>
+                <Label><b>Telhado:/b></Label>
+                <input type="radio" name="tipo_de_cliente2">Fibrocimento 
+                <input type="radio" name="tipo_de_cliente2">Aluzinco
+                <input type="radio" name="tipo_de_cliente2">Romana
+                <input type="radio" name="tipo_de_cliente2">Laje
+                <input type="radio" name="tipo_de_cliente2">Romana/Laje
+                <br>
+
+            </div>
+        </div>
+
+        <br> 
+
+        <!--BOX 3-->
+        
+        <div class="box3"> 
+            <div class="box3_title">
+                <p><b>PADRÃO DE ENTRADA (Registrar com Foto)</b></p>
+            </div>
+
+            <div>
+                <label for=""> <b> Transformador: <b> </label>
+                <input type="radio" name="tipo_de_cliente3">Não
+                <input type="radio" name="tipo_de_cliente3">Sim
+                <br>
+                <label for="">Se sim:</label>
+                <input type="text">   
+                 <br> <br>
+                <Label><b>Possui grupo Gerador?</b></Label>   
+                <input type="radio" name="tipo_de_cliente4">Sim
+                <input type="radio" name="tipo_de_cliente4">Não
+                 <br> <br>
+                <Label><b>Tipo de Ligação:</b></Label>   <br>
+                <input type="radio" name="tipo_de_cliente5">Monofásica
+                <input type="radio" name="tipo_de_cliente5">Bifásica
+                <input type="radio" name="tipo_de_cliente5">Trifásica
+                 <br> <br>
+                <Label><b>Tensão nominal:</b></Label>   
+                <input type="radio" name="tipo_de_cliente6"> 220/127V 
+                <input type="radio" name="tipo_de_cliente6"> 380/220V
+                 <br> <br>
+                <Label><b>Tipo de Ramal:</b></Label>
+                <input type="radio" name="tipo_de_cliente7">Térreo
+                <input type="radio" name="tipo_de_cliente7">Subterrâneo
+                 <br> <br>
+                <Label><b>Local da Instalação:</b></Label>   <br>
+                <input type="radio" name="tipo_de_cliente8">Muro
+                <input type="radio" name="tipo_de_cliente8">Mureta
+                <input type="radio" name="tipo_de_cliente8">Parede
+                <input type="radio" name="tipo_de_cliente8">Outros
+                 <br> <br>
+                <Label><b>Existe aterramento no medidor?:</b></Label>
+                <input type="radio" name="tipo_de_cliente9">Sim
+                <input type="radio" name="tipo_de_cliente9">Não
+                 <br> <br>
+                <Label><b>Caixa do Padrão de Entrada (Medição):</b></Label>   <br>
+                <input type="radio" name="tipo_de_cliente10">Simples
+                <input type="radio" name="tipo_de_cliente10">Dupla
+                <input type="radio" name="tipo_de_cliente10">Agrupada
+                 <br> <br>
+                <Label><b>Barramento da medição:</b></Label>    <br>
+                <input type="radio" name="tipo_de_cliente11">Único
+                <input type="radio" name="tipo_de_cliente11">Compartilhado
+                 <br> <br>
+                <Label><b>Dispositivo de proteção:</b></Label>     <br>
+                <input type="radio" name="tipo_de_cliente12">único 
+                <input type="radio" name="tipo_de_cliente12">Compartilhado
+                 <br> <br>
+                <Label><b>Foi necessário romper o lacre:</b></Label>
+                <input type="radio" name="tipo_de_cliente13">Sim
+                <input type="radio" name="tipo_de_cliente13">Não
+                 <br> <br>
+                <Label><b>dispositivo de Proteção na saída do medidor(A):</b></Label>
+                <input type="radio" name="tipo_de_cliente14">Disjuntor
+                <input type="radio" name="tipo_de_cliente14">Fusível
+                 <br> <br>
+                <Label><b>Estado de conservação da caixa de medição:</b></Label>   <br>
+                <input type="radio" name="tipo_de_cliente15">Boa
+                <input type="radio" name="tipo_de_cliente15">Deteriorada
+                 <br> <br>
+                <Label><b>Bitola dos Condutores - Poste até Pontalete:</b></Label>   <br>
+                <input type="radio" name="tipo_de_cliente16">COBRE
+                <input type="radio" name="tipo_de_cliente16">ALUMIN.
+                <input type="radio" name="tipo_de_cliente16">EPR
+                <input type="radio" name="tipo_de_cliente16">PVC
+                 <br> <br>
+                <label for="">Fase A:</label><input type="text"> <br>
+                <label for="">Fase B:</label><input type="text"> <br>
+                <label for="">Fase C:</label><input type="text"> <br>
+                <label for="">Neutro:</label><input type="text"> <br>
+                <label for="">Terra:</label><input type="text"> <br>
+                 <br> <br>
+                <Label><b>Bitola dos Condutores - Pontalete até Medidor:</b></Label>
+                <input type="radio" name="tipo_de_cliente17">COBRE
+                <input type="radio" name="tipo_de_cliente17">ALUMIN.
+                <input type="radio" name="tipo_de_cliente17">EPR
+                <input type="radio" name="tipo_de_cliente17">PVC
+                 <br> <br>
+                <label for="">Fase A:</label><input type="text"> <br>
+                <label for="">Fase B:</label><input type="text"> <br>
+                <label for="">Fase C:</label><input type="text"> <br>
+                <label for="">Neutro:</label><input type="text"> <br>
+                <label for="">Terra:</label><input type="text"> <br>
+                 <br> <br>
+                <Label><b>Bitola dos Condutores - Medidor até o QDG:</b></Label>
+                <input type="radio" name="tipo_de_cliente18">COBRE
+                <input type="radio" name="tipo_de_cliente18">ALUMIN.
+                <input type="radio" name="tipo_de_cliente18">EPR
+                <input type="radio" name="tipo_de_cliente18">PVC
+                 <br> <br>
+                <label for="">Fase A:</label><input type="text"> <br>
+                <label for="">Fase B:</label><input type="text"> <br>
+                <label for="">Fase C:</label><input type="text"> <br>
+                <label for="">Neutro:</label><input type="text"> <br>
+                <label for="">Terra:</label><input type="text"> <br>
+                 <br>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="button">
+            <input type="button" value="Salvar e Enviar" onclick="funcao_pdf()" class="intern_button" id="button">
+        </div>
+        
+    </div>
+
+</body>
+</html>
